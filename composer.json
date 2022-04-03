@@ -1,0 +1,16 @@
+{
+    "name": "getnamefromuser/pico-marble",
+    "description": "Simple Theme for PicoCMS",
+    "type": "pico-theme",
+    "homepage": "https://github.com/getNameFromUser/pico-marble",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "getNameFromUser",
+            "email": "getNameFromUser@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "picocms/pico": "^dev-pico-3.0"
+    }
+}
