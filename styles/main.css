@@ -7,7 +7,6 @@
  */
 
 
-
 /*
  * Variables, resets and setup
  */
@@ -39,7 +38,6 @@
 }
 
 
-
 /*
  * Font-face
  */
@@ -49,9 +47,7 @@
   font-style: normal;
   font-family: 'source-sans-pro';
   src: url('../font/SourceSansPro-Regular.eot'); /* IE9 Compat Modes */
-  src: url('../font/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('../font/SourceSansPro-Regular.otf.woff') format('woff'), /* Pretty Modern Browsers */
-  url('../font/SourceSansPro-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+  src: url('../font/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../font/SourceSansPro-Regular.otf.woff') format('woff'), /* Pretty Modern Browsers */ url('../font/SourceSansPro-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
 }
 
 @font-face {
@@ -59,9 +55,7 @@
   font-style: italic;
   font-family: 'source-sans-pro';
   src: url('../font/SourceSansPro-It.eot'); /* IE9 Compat Modes */
-  src: url('../font/SourceSansPro-It.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('../font/SourceSansPro-It.otf.woff') format('woff'), /* Pretty Modern Browsers */
-  url('../font/SourceSansPro-It.ttf') format('truetype'); /* Safari, Android, iOS */
+  src: url('../font/SourceSansPro-It.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../font/SourceSansPro-It.otf.woff') format('woff'), /* Pretty Modern Browsers */ url('../font/SourceSansPro-It.ttf') format('truetype'); /* Safari, Android, iOS */
 }
 
 @font-face {
@@ -69,9 +63,7 @@
   font-style: normal;
   font-family: 'source-sans-pro';
   src: url('../font/SourceSansPro-Semibold.eot'); /* IE9 Compat Modes */
-  src: url('../font/SourceSansPro-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('../font/SourceSansPro-Semibold.otf.woff') format('woff'), /* Pretty Modern Browsers */
-  url('../font/SourceSansPro-Semibold.ttf') format('truetype'); /* Safari, Android, iOS */
+  src: url('../font/SourceSansPro-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../font/SourceSansPro-Semibold.otf.woff') format('woff'), /* Pretty Modern Browsers */ url('../font/SourceSansPro-Semibold.ttf') format('truetype'); /* Safari, Android, iOS */
 }
 
 @font-face {
@@ -80,11 +72,8 @@
   font-family: 'source-sans-pro';
   src: url('../font/SourceSansPro-SemiboldIt.eot');
   /* IE9 Compat Modes */
-  src: url('../font/SourceSansPro-SemiboldIt.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('../font/SourceSansPro-SemiboldIt.otf.woff') format('woff'), /* Pretty Modern Browsers */
-  url('../font/SourceSansPro-SemiboldIt.ttf') format('truetype'); /* Safari, Android, iOS */
+  src: url('../font/SourceSansPro-SemiboldIt.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../font/SourceSansPro-SemiboldIt.otf.woff') format('woff'), /* Pretty Modern Browsers */ url('../font/SourceSansPro-SemiboldIt.ttf') format('truetype'); /* Safari, Android, iOS */
 }
-
 
 
 /*
@@ -96,7 +85,6 @@
     --main-content-margin: 0 0 0 var(--nav-width);
   }
 }
-
 
 
 /*
@@ -116,7 +104,6 @@ body {
 }
 
 
-
 /*
  * Structure
  */
@@ -132,7 +119,6 @@ body {
   margin-right: var(--vertical-padding);
   margin-top: var(--document-horizontal-margin);
 }
-
 
 
 /*
@@ -182,7 +168,7 @@ h2 {
   padding-top: 1.5rem;
   position: -webkit-sticky;
   position: sticky;
-  top:0;
+  top: 0;
 }
 
 h3 {
@@ -200,8 +186,7 @@ h6 {
 }
 
 h2::before,
-h3::before
-{
+h3::before {
   -webkit-font-smoothing: antialiased;
   background-color: var(--color-background);
   color: var(--accent-color);
@@ -262,7 +247,6 @@ pre code {
 }
 
 
-
 /*
  * Copy to clipboard
  */
@@ -312,7 +296,6 @@ pre code {
 }
 
 
-
 /*
  * Main navigation
  */
@@ -359,7 +342,7 @@ pre code {
 }
 
 .main-nav nav {
-  padding:  var(--document-horizontal-margin) 0;
+  padding: var(--document-horizontal-margin) 0;
 }
 
 .main-nav nav ul {
@@ -422,7 +405,6 @@ pre code {
 }
 
 
-
 /*
  * Main navigation
  */
@@ -447,7 +429,7 @@ pre code {
 .page-toc ul {
   list-style: none;
   margin: 0;
-  padding:  var(--document-horizontal-margin) 0;
+  padding: var(--document-horizontal-margin) 0;
 }
 
 .page-toc a {
@@ -466,7 +448,6 @@ pre code {
 }
 
 
-
 /* Toc markers are used as anchors since sticky headers
  * interfere with scrollto when scrolling up.
  */
@@ -479,7 +460,6 @@ pre code {
   top: 1px;
   width: 1px;
 }
-
 
 
 /* Class to contain example code for example if
@@ -497,4 +477,10 @@ pre code {
 
 .example + pre code {
   border-top: 0;
+}
+
+.main-nav header .title {
+  font-size: 1rem;
+  font-weight: 900;
+  white-space: break-spaces;
 }
