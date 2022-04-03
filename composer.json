@@ -11,6 +11,6 @@
         }
     ],
     "require": {
-        "picocms/pico": "^dev-pico-3.0"
+        "picocms/pico": "dev-pico-3.0"
     }
 }
